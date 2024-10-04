@@ -1,0 +1,96 @@
+import java.util.Scanner;
+
+class Hello {
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Hello desde la cuenta");
+        System.out.print("Please enter your name: ");
+        String name = leer.next();
+        System.out.println("You entered: " + name);
+    }
+
+otro codigo
+              import java.util.Scanner;
+class Hello {
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Hello desde la cuenta");
+        System.out.print("Please enter your name: ");
+        String name = leer.next();
+        System.out.println(name +"type a number");
+
+
+int number = leer.nextInt();
+System.out.println(number*2);
+    } 
+}               
+
+
+otro codigo 
+import java.util.Scanner;
+
+class Hello {
+    public static void main(String[] args) { 
+        
+        Scanner scanner = new Scanner(System.in);
+        
+       
+        System.out.print("Please enter the first number: ");
+        int number1 = scanner.nextInt();  
+        
+        System.out.print("Please enter the second number: ");
+        int number2 = scanner.nextInt()
+        System.out.println("Restar: " + (number1 - number2));
+        System.out.println("Sumar: " + (number1 + number2));
+        System.out.println("Multiplicar: " + (number1 * number2));
+        
+        // Close the scanner
+        scanner.close();
+    }
+}
+otro codigo 
+
+import java.util.Scanner;
+
+class Hello {
+    public static void main(String[] args) { 
+        
+        Scanner scanner = new Scanner(System.in);
+        
+       
+        System.out.print("Please enter the first number: ");
+        float number1 = scanner.nextFloat();  
+        
+        System.out.print("Please enter the second number: ");
+        float number2 = scanner.nextFloat()
+        System.out.println("Restar: " + (number1 - number2));
+        System.out.println("Sumar: " + (number1 + number2));
+        System.out.println("Multiplicar: " + (number1 * number2));
+        
+        // Close the scanner
+        scanner.close();
+    }
+}
+otro codigo 
+
+import java.util.Scanner;
+
+class Hello {
+    public static void main(String[] args) { 
+        
+        Scanner scanner = new Scanner(System.in);
+        
+       
+        System.out.print("Please enter the first number: ");
+        float number1 = scanner.nextFloat();  
+        
+        System.out.print("Please enter the second number: ");
+        float number2 = scanner.nextFloat();
+        System.out.println("Restar: " + (number1 - number2));
+        System.out.println("Sumar: " + (number1 + number2));
+        System.out.println("Multiplicar: " + (number1 * number2));
+        
+       
+        scanner.close();
+    }
+}
